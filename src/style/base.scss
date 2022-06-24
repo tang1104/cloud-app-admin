@@ -1,0 +1,21 @@
+@import 'reset-css/sass/reset';
+@import 'animate.css';
+
+::-webkit-scrollbar {
+  /*隐藏滚轮*/
+  display: none;
+}
+
+input {
+  outline:none
+}
+
+.el-main {
+  padding: 0 !important;
+}
+.message-box-custom-class {
+  min-width: 350px !important;
+}
+.el-popover.el-popper {
+  background: var(--el-bg-color-overlay) !important
+}
